@@ -1,0 +1,13 @@
+<form [formGroup]="store" id="f1">
+        <label>UserId:</label><br>
+        <input type="text" placeholder="Enter id" formControlName="user" id="f2"><br>
+        <label>Id:</label><br>
+        <input type="text" placeholder="Enter id" formControlName="id" id="f2"><br>
+        <label>Title:</label><br>
+        <input type="text" placeholder="Enter title" formControlName="title" id="f2"><br>
+        <label>completed:</label><br>
+        <input type="text" placeholder="Enter completed status" formControlName="comp" id="f2"><br>
+
+        <button (click)="add1(store.value)">add task</button>
+    </form>
+    

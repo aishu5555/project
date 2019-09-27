@@ -1,0 +1,16 @@
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+tr:nth-child(odd){
+background-color: lightblue;
+}
+tr:nth-child(even){
+    background-color: pink;
+    }
+    th{
+        background-color: tomato;
+    }
+#t1{
+    color:blue;
+}    

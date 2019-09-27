@@ -1,0 +1,7 @@
+<form [formGroup]="store">
+    <label>Email:</label><br>
+    <input type="text" placeholder="Enter Email" formControlName="email"><br><br>
+    <label>Password:</label><br>
+    <input type="password" placeholder="Enter Password" formControlName="password"><br><br>
+    <button (click)=add(store.value)>Submit</button>
+</form>
